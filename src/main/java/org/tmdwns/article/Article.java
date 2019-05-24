@@ -1,5 +1,6 @@
 package org.tmdwns.article;
 
+
 public class Article {
 
 	String articleId;
