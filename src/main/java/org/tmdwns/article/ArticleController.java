@@ -99,6 +99,6 @@ public class ArticleController {
             @SessionAttribute("MEMBER") Member member) {
         article.setArticleId(articleId);
         articleDao.updateArticle(article);
-        return "redirect:/app/article/list";
+        return "article/up";
     }
 }
