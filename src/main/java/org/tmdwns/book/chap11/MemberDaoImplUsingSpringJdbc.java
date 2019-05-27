@@ -70,7 +70,7 @@ public class MemberDaoImplUsingSpringJdbc implements MemberDao {
 }
 	public int changePassword(String memberId, String currentPassword,
 			String newPassword) {
-		return jdbcTemplate.update(CHANGE_PASSWORD, newPassword, memberId,
-currentPassword);
+		return jdbcTemplate.update(CHANGE_PASSWORD, newPassword, memberId,		
+										currentPassword);
 }
 }

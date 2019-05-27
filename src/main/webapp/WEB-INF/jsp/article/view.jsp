@@ -8,6 +8,8 @@
 <body>
 	<%@ include file="/WEB-INF/jsp/header.jsp"%>
 	<h2>글 보기</h2>
+<a href="./app/article/update?articleId=${article.articleId}">글 수정</a>
+<a href="./app/article/delete?articleId=${article.articleId}">글 삭제</a>
 	<p>
 		<a href="./app/article/list">글 목록</a>
 	</p>
